@@ -17,3 +17,9 @@ docker container start docker-hello-world
 
 # See logs of container
 docker container logs docker-hello-world
+
+# Login into docker hub
+docker login -u [username] -p [password]
+
+# Push docker image to docker hub
+docker push zalghod/docker-hello-world
