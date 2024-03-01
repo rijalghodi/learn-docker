@@ -3,7 +3,6 @@
 # FROM command used to build use existing Docker image
 FROM alpine:3
 
-
 # LABEL command used to add metadata and information into docker image
 # LABEL command doesnt affect the docker image build process and run
 LABEL author="Rijal Ghodi"
